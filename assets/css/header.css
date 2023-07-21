@@ -1,20 +1,5 @@
-@import url("./reset.css");
+@import "./reset.css";
 
-:root {
-    --font-family: "Roboto", sans-serf;
-    --normal-font: 400;
-    --bold-font: 700;
-    --bolder-font: 900;
-    --bg-color: #fcfcfc;
-    --primary-color: #959ac9;
-    --secondary-color: #353fff;
-    --primary-shadow: #8b8eaf;
-    --secondary-shadow: #a17a69;
-    --bottom-margin: 0.5rem;
-    --bottom-margin-2: 1rem;
-    --line-height: 1.7rem;
-    --transition: 0.3s;
-}
 
 .container-header{
     position: sticky;
@@ -36,25 +21,28 @@
 }
 
 .header-name {
-    color: var(--color-primari);
+    color: var(--primary-color);
   }
   
-.navigation-list-item .nav-link {
-    color: var(--color-primario);
+.nav-link {
+    color: var(--primary-color);
     transition: var(--transicion);
+    text-decoration: none;
 }
-.navigation-list-item .nav-link:hover {
-    color: var(--valor-secundario);
+.nav-link:hover {
+    color: var(--secondary-color);
     border-bottom: 2px solid var(--valor-secundario);
 }
   
 .navigation .navigation-list {
+    list-style-type: none;
     display: flex;
     gap: 1.9rem;
 }
   
 .navigation .navigation-list .navigation-list-item {
-    font-weight: var(--negrita);
+    text-decoration: none;
+    color: var(--primary-color);
 }
 
 .button-menu {
@@ -63,4 +51,8 @@
     border: 0;
     background-color: transparent;
     cursor: pointer;
+    display: none;
   }
+  
+
+  

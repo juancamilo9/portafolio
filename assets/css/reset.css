@@ -7,8 +7,8 @@
   --bold-font: 700;
   --bolder-font: 900;
   --bg-color: #fcfcfc;
-  --primary-color: #959ac9;
-  --secondary-color: #353fff;
+  --primary-color:#353fff ;
+  --secondary-color: #959ac9;
   --primary-shadow: #8b8eaf;
   --secondary-shadow: #a17a69;
   --bottom-margin: 0.5rem;
@@ -31,19 +31,7 @@ html {
 body {
     font-family: var(--font-family);
 }
-  
-ul {
-    list-style-type: none;
-}
-  
-a {
-    text-decoration: none;
-    color: var(--primary-color);
-}
-  
-a:hover {
-    color: var(--secondary-color);
-}
+
 
 
 
